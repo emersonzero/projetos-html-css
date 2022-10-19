@@ -1,0 +1,131 @@
+@import 'sass/grid';
+@import 'sass/module';
+@import './reset.css';
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 228, 228);
+}
+header{
+    background: white;
+    height: 60px;
+    padding-left: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.container-login{
+    background-color: white;
+    width: 380px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.container-login-welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-login-welcome > p{
+    padding-bottom: 10px;
+    color: rgb(167, 167, 167);
+}
+.container-login-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+img:hover{
+    transform: translate(3px);
+}
+input{
+    background-color: rgba(167, 156, 156, 0.171);
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+.input1{
+    background: url(assets/mail-envelope-closed.png) no-repeat center left;
+    background-color: rgba(167, 156, 156, 0.171);
+}
+.input2{
+    background: url(assets/lock.png) no-repeat center left;
+    background-color: rgba(167, 156, 156, 0.171);
+}
+.container-login-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container-login-p{
+    color: rgba(12, 12, 230, 0.634);
+    padding: 15px 0px 15px 0px;
+    width: 290px;
+    text-align: end;
+}
+.container-login-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.container-login-footer > button{
+    background-color: rgba(12, 12, 230, 0.634);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.container-login-footer > button:hover{
+    background-color: blue
+}
+
+.container-login-footer > p{
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: rgba(12, 12, 230, 0.634);
+}
+a:hover{
+    color: blue;
+}
+.box-mail{
+    background: #EEE;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    
+}
+.box-mail > input{
+    background-color: #EEE;
+}
+.box-pass{
+    background: #EEE;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.box-pass > input{
+    background-color: #EEE;
+    width: 280px;
+}

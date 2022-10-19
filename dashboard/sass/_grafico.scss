@@ -1,0 +1,44 @@
+.card-grafic{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 9px 15px;   
+}
+.card-grafic-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-grafic-header-sumary{
+    display: flex;
+    gap: 10px;
+}
+select{
+    width: 70px;
+    text-align: center;
+    background-color: #3030301c;
+    border-radius: 6px;
+    border: none;
+    color: #5570F1;
+}
+.card-grafic-flex{
+    display: flex;
+}
+.card-grafic-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-grafic-bar > img{
+    height: 170px;
+}
+
+.card-grafic-bar-gap{
+    display: flex;
+    gap: 40px;
+}
+.card-grafic-percent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

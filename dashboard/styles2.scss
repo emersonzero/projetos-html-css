@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import './_sass/body';
+@import './_sass/navbar';
+@import './_sass/sidebar';
+@import '_sass/grid';
+@import './_sass/container';
+@import './_sass/principal';
+@import './_sass/marketting';
+@import './_sass/new_product';
+@import './_sass/grafico';
+@import './_sass/cards';
+@import '_sass/module';
+@import './reset.css';
+
+
+
+

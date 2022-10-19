@@ -1,0 +1,51 @@
+.card-marketting{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 11px 15px;
+}
+
+.card-marketting-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-marketting-header-bk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-marketting-list{
+    display: flex;
+    justify-content: space-between;
+}
+.color-list1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.color-list2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.color-list3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.flex-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    background-color: #8b8d9731;
+    width: 339px;
+    height: 160px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}

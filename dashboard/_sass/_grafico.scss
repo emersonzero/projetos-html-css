@@ -1,0 +1,94 @@
+.card-grafic{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 9px 15px;   
+}
+.card-grafic-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-grafic-header-sumary{
+    display: flex;
+    gap: 10px;
+}
+select{
+    width: 70px;
+    text-align: center;
+    background-color: #3030301c;
+    border-radius: 6px;
+    border: none;
+    color: #5570F1;
+}
+.card-grafic-flex{
+    display: flex;
+    gap: 30px;
+}
+.card-grafic-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-grafic-bar-gap{
+    display: flex;
+    gap: 40px;
+}
+.card-grafic-percent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.barra{
+    background-color: rgba(128, 128, 128, 0.118);
+    border-radius: 10px;
+    width: 13px;
+    height: 170px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.barra > .percent-blue-1{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 80%;
+}
+.barra > .percent-blue-2{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 40%;
+}
+.barra > .percent-blue-3{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 60%;
+}
+.barra > .percent-blue-4{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 30%;
+}
+.barra > .percent-blue-5{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 70%;
+}
+.barra > .percent-blue-6{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 50%;
+}
+.barra > .percent-blue-7{
+    background-color: #5570F1;
+    border-radius: 10px;
+    width: 13px;
+    height: 70%;
+}

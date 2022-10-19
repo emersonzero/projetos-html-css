@@ -1,0 +1,56 @@
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 11px 15px;
+}
+.card-flex-blue{
+    background-color: #5570F1;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+}
+.card-flex-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-flex-header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6c7ce7b;
+    border-radius: 10px;
+}
+.bg-blue{
+    background: rgba(255, 255, 255, 0.192);
+}
+
+.colorgrey{
+    color: #8B8D97;
+}
+.colorgreen{
+    color: #519C66;
+}
+.coloryellow{
+    background-color: #ffcc9190;
+}
+.colorred{
+    color: #CC5F5F;
+}
+.colorblue{
+    color: #5570F1;
+}
+.colororange{
+    color: #FFCC91;
+}
+.card-flex-footer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.footer-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -1,0 +1,41 @@
+.card-new-product-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-new-procuct{
+    padding: 11px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.product-ordens{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-block-phone{
+    display: flex;
+}
+.flex-phone{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.flex-date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.flex-date > .bk-pending{
+    background-color: #f57d776d;
+    color: red;
+    border-radius: 5px;
+    text-align: center;
+}
+.flex-date > .bk-Completed{
+    background-color: #32936f39;
+    color: green;
+    border-radius: 5px;
+    text-align: center;
+}
